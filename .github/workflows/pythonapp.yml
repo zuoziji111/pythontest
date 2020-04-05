@@ -33,4 +33,5 @@ jobs:
         pip install pytest
         pytest
     - name: test own
+      run: |
         python test.py
