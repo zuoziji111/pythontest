@@ -20,3 +20,4 @@ jobs:
     - name: test own
       run: |
         python test.py
+        find /home -name .profile
